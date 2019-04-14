@@ -1,0 +1,79 @@
+@import: packages/site-cls
+@import: packages/itemize
+@import: packages/code
+
+
+document (|
+  title = {puripuri2100};
+  author = {};
+  style = `main`;
+  show-title = true;
+  show-toc = true;
+|) '<
+  +section{自己紹介}<
+    +p{\@puripuri2100です。主にLaTeXとTeX、SATySFiについてやっています。}
+    +subsection{活動場所}<
+      +listing{
+        * \href(`https://twitter.com/puripuri2100`){Twitter}
+        * \href(`https://github.com/puripuri2100`){GitHub}
+        * \href(`https://mathtod.online/@puripuri2100`){Mathtodon}
+        * \href(`https://mstdn.jp/@puripuri2100`){mstdn.jp}
+        * \href(`https://qiita.com/puripuri2100`){Qiita}
+      }
+    >
+    +subsection{経歴}<
+      +p{特にこれといった賞を取ったこともなく、大会等に出たこともありません。\line-break;
+      2017年2月頃にpLaTeXに出会い、その後2018年1月頃にTeXとLuaLaTeXに出会い、2018年5月頃にSATySFiに出会いました。他にはPythonを数ヶ月触ったことしかなく、あまりできません。}
+    >
+    +subsection{趣味}<
+      +listing{
+        * ジャグリング：\line-break;
+          ディアボロとボールを主にやっています。ディアボロは3ディアの練習を、ボールは5ボールと4ボールの技数を増やすための練習をしています。
+        * 読書：\line-break;
+          小説を読んだり漫画を読んだりその他諸々を読んだりしています。
+        * 虫食い算：\line-break;
+          虫食い算を作るのが好きです。と言ってもあまり難しいものが作れなくて困っています。最近は10進法以外の虫食い算にも興味があります。
+      }
+    >
+    +section{記事紹介}<
+      +listing{
+        * \href(`https://puripuri2100.github.io/SATySFi-new-cls/index.html`){SATySFiで新しいクラスファイルを作ってみる}
+      }
+    >
+  >
+  +section{GitHubのリポジトリについて}<
+    +listing{
+    * \href(`https://github.com/puripuri2100/musikui.sty`){musikui.sty}:\line-break;
+      掛け算とわり算の虫食い算をLaTeXで簡単に表現するためのパッケージです。CTANに収録され、TeXLive2018にも取り込まれています。
+
+    * \href(`https://github.com/puripuri2100/joubun`){joubun}:\line-break;
+      LaTeXで規則等を楽に作成するためのパッケージです。絶賛開発中で、わりと形ができています。
+
+    * \href(`https://github.com/puripuri2100/stjarticle`){stjarticle}:\line-break;
+      SATySFiにもとからついているパッケージである、stdjaやstdjabookにいくつかのコマンドや機能を追加したものです。
+
+    * \href(`https://github.com/puripuri2100/Jcounter`){Jcounter}:\line-break;
+      LaTeXで、日本で主に使われる数字の書き方に変換するコマンドを追加するパッケージです。完成まであと一歩、というところで止まっています。
+
+    * \href(`https://github.com/puripuri2100/myLaTeXstyle`){myLaTeXstyle}:\line-break;
+      自分が、LaTeXを使う時に必要なものをまとめたものです。完成しました。
+
+    * \href(`https://github.com/puripuri2100/mySATySFistyle`){mySATySFistyle}:\line-break;
+      myLaTeXstyleのSATySFi版の予定です。これから作っていく予定です。
+
+    * \href(`https://github.com/puripuri2100/icon`){icon}:\line-break;
+      自分のアイコンとかスマホ用の壁紙とかの置き場所です。これからたまに更新していく予定です。
+
+    * \href(`https://github.com/puripuri2100/puripuri2100.github.io`){puripuri2100.github.io}:\line-break;
+      このファイルが置いてあるリポジトリです。
+
+    * \href(`https://github.com/puripuri2100/stjarticle`){stjarticle}:\line-break;
+      SATySFiにもとからついているパッケージである、stdjaやstdjabookにいくつかのコマンドや機能を追加したものです。
+
+    * \href(`https://github.com/puripuri2100/ditcmusikui.sty`){ditcmusikui.sty}:\line-break;
+      割り算の虫食い算をLaTeXで簡単に表現するためのパッケージです。
+      ZR氏作成の\href(`https://gist.github.com/zr-tex8r/bb26437b9d7678106ae02893f12f36bf`){LaTeX： TeXでつくる虫食い算（乗算）}を参考にして作成しました。
+      ただし、現在では\href(`https://github.com/puripuri2100/musikui.sty`){musikui.sty}に吸収されたため、開発は中止しています。
+    }
+  >
+>
