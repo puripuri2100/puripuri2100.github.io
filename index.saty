@@ -5,25 +5,39 @@
 
 document (|
   title = {puripuri2100};
-  author = {};
+  author = {puripuri2100};
   style = `main`;
   show-title = true;
   show-toc = true;
 |) '<
+  +p{\strong{お仕事募集中です！}SATySFiのクラスファイル作成を頼みたいといった方や、LaTeXパッケージのメンテナンスを頼みたいといった方は連絡していただけると嬉しいです。（学生なため、長時間の労働はできません。申し訳ありません。）}
   +section{自己紹介}<
     +p{\@puripuri2100です。主にLaTeXとTeX、SATySFiについてやっています。}
-    +subsection{活動場所}<
+    +subsection{活動場所・連絡先}<
       +listing{
         * \href(`https://twitter.com/puripuri2100`){Twitter}
         * \href(`https://github.com/puripuri2100`){GitHub}
         * \href(`https://mathtod.online/@puripuri2100`){Mathtodon}
         * \href(`https://mstdn.jp/@puripuri2100`){mstdn.jp}
         * \href(`https://qiita.com/puripuri2100`){Qiita}
+        * Gmail : puripuri2100[at]gmail.com ([at]は\@に直してください)
       }
     >
-    +subsection{経歴}<
-      +p{特にこれといった賞を取ったこともなく、大会等に出たこともありません。\line-break;
-      2017年2月頃にpLaTeXに出会い、その後2018年1月頃にTeXとLuaLaTeXに出会い、2018年5月頃にSATySFiに出会いました。他にはPythonを数ヶ月触ったことしかなく、あまりできません。}
+    +subsection{経歴（みたいなもの）}<
+      +p{2017年2月頃にpLaTeXに出会い、その後2018年1月頃にTeXとLuaLaTeXに出会い、2018年5月頃にSATySFiに出会いました。}
+      +p{一応使える言語は
+      \listing{
+        * OCaml
+        * F\#
+        * SATySFi
+        * (TeX)
+      }
+      で、使える環境は
+      \listing{
+        * Windows10
+        * Ubuntu on WSL
+        * Ubuntu 18.04 LTS
+      }です。}
     >
     +subsection{趣味}<
       +listing{
@@ -37,43 +51,80 @@ document (|
     >
     +section{記事紹介}<
       +listing{
-        * \href(`https://puripuri2100.github.io/SATySFi-new-cls/index.html`){SATySFiで新しいクラスファイルを作ってみる}
+        * \href(`https://qiita.com/puripuri2100/items/a63e0c48f245dfcb0446`){SATySFiに関すること} :\line-break;
+        SATySFiに関することをまとめました。ちょっと古いかもしれません。
+
+        * \href(`https://qiita.com/puripuri2100/items/70f368d62d41b982017a`){Ubuntu on WSL にSATySFi v0.0.3を導入する} :\line-break;
+        Windows 10にSATySFiをインストールする方法を書きました。情報が古いので、v0.0.4が出たら新たに書くはずです。
+
+        * \href(`https://qiita.com/puripuri2100/items/519e5364297446b7071a`){SATySFiでカスタマイズが容易なクラスファイルを作成した} :\line-break;
+        exdesignクラスの紹介です。結構便利なのでぜひ使ってみてください。
+
+        * \href(`https://qiita.com/puripuri2100/items/8dfd35af9c1bfac0e1bf`){SATySFiでもSI単位を使いたい！} :\line-break;
+        SATySFi-siunitxパッケージの紹介です。
+
+        * \href(`https://puripuri2100.hatenablog.com/entry/2018/12/02/091222`){LuaLaTeXで部誌を作った話} :\line-break;
+        LuaLaTeXで部誌をを作った時の話です。
+
+
+%        * \href(`https://puripuri2100.github.io/SATySFi-new-cls/index.html`){SATySFiで新しいクラスファイルを作ってみる}
       }
     >
   >
   +section{GitHubのリポジトリについて}<
-    +listing{
-    * \href(`https://github.com/puripuri2100/musikui.sty`){musikui.sty}:\line-break;
-      掛け算とわり算の虫食い算をLaTeXで簡単に表現するためのパッケージです。CTANに収録され、TeXLive2018にも取り込まれています。
+    +subsection {SATySFi関係}<
+      +listing{
+        * \href(`https://github.com/puripuri2100/exdesign`){exdesign} :\line-break;
+        文書ごとにデザインを変更することを簡単にできるようにしたクラスファイルです。
 
-    * \href(`https://github.com/puripuri2100/joubun`){joubun}:\line-break;
-      LaTeXで規則等を楽に作成するためのパッケージです。絶賛開発中で、わりと形ができています。
+        * \href(`https://github.com/puripuri2100/stjarticle`){stjarticle} :\line-break;
+        SATySFiにもとからついているパッケージである、stdjaやstdjabookにいくつかのコマンドや機能を追加したものです。
 
-    * \href(`https://github.com/puripuri2100/stjarticle`){stjarticle}:\line-break;
-      SATySFiにもとからついているパッケージである、stdjaやstdjabookにいくつかのコマンドや機能を追加したものです。
+        * \href(`https://github.com/puripuri2100/musikui.satyh`){musikui.satyh} :\line-break;
+        SATySFiで虫食い算を描画するのに使えるパッケージです。
 
-    * \href(`https://github.com/puripuri2100/Jcounter`){Jcounter}:\line-break;
-      LaTeXで、日本で主に使われる数字の書き方に変換するコマンドを追加するパッケージです。完成まであと一歩、というところで止まっています。
+        * \href(`https://github.com/puripuri2100/SATySFi-siunitx`){SATySFi-siunitx} :\line-break;
+        SATySFiで国際単位系(SI)を使いたい時に、それをサポートするためのパッケージです。
 
-    * \href(`https://github.com/puripuri2100/myLaTeXstyle`){myLaTeXstyle}:\line-break;
-      自分が、LaTeXを使う時に必要なものをまとめたものです。完成しました。
+        * \href(`https://github.com/puripuri2100/SATySFi-uline`){SATySFi-uline} :\line-break;
+        SATySFiで下線を引く時に便利なパッケージです。直線以外にも点線や打ち消し線もあります。
 
-    * \href(`https://github.com/puripuri2100/mySATySFistyle`){mySATySFistyle}:\line-break;
-      myLaTeXstyleのSATySFi版の予定です。これから作っていく予定です。
+        * \href(`https://github.com/puripuri2100/SATySFi-new-cls`){SATySFi-new-cls} :\line-break;
+        改変を前提としたSATySFiのクラスファイル。やっていることの解説から改造の仕方までを説明する文書を公開するはず。
 
-    * \href(`https://github.com/puripuri2100/icon`){icon}:\line-break;
-      自分のアイコンとかスマホ用の壁紙とかの置き場所です。これからたまに更新していく予定です。
+        * \href(`https://github.com/puripuri2100/SATySFi-make-markdown`){SATySFi-make-markdown} :\line-break;
+        テキストモードを使って\code(`saty -> md`);の変換をするためのクラスファイルとパッケージ。
 
-    * \href(`https://github.com/puripuri2100/puripuri2100.github.io`){puripuri2100.github.io}:\line-break;
-      このファイルが置いてあるリポジトリです。
+        * \href(`https://github.com/puripuri2100/SATySFi-debug-show-value`){SATySFi-debug-show-value} :\line-break;
+        デバッグ用に使ってください。
 
-    * \href(`https://github.com/puripuri2100/stjarticle`){stjarticle}:\line-break;
-      SATySFiにもとからついているパッケージである、stdjaやstdjabookにいくつかのコマンドや機能を追加したものです。
+        * \href(`https://github.com/puripuri2100/SATySFi-clock-board`){SATySFi-clock-board} :\line-break;
+        SATySFiで時計版、やってみたくなるよね。
 
-    * \href(`https://github.com/puripuri2100/ditcmusikui.sty`){ditcmusikui.sty}:\line-break;
-      割り算の虫食い算をLaTeXで簡単に表現するためのパッケージです。
-      ZR氏作成の\href(`https://gist.github.com/zr-tex8r/bb26437b9d7678106ae02893f12f36bf`){LaTeX： TeXでつくる虫食い算（乗算）}を参考にして作成しました。
-      ただし、現在では\href(`https://github.com/puripuri2100/musikui.sty`){musikui.sty}に吸収されたため、開発は中止しています。
-    }
+        * \href(`https://github.com/puripuri2100/SATySFi-calendar`){SATySFi-calendar} :\line-break;
+        SATySFiでカレンダー、やってみたくなるよね。
+      }
+    >
+    +subsection{LaTeX関係}<
+      +listing{
+        * \href(`https://github.com/puripuri2100/musikui.sty`){musikui.sty}:\line-break;
+          掛け算とわり算の虫食い算をLaTeXで簡単に表現するためのパッケージです。CTANに収録され、TeXLive2018にも取り込まれています。
+
+        * \href(`https://github.com/puripuri2100/joubun`){joubun}:\line-break;
+          LaTeXで規則等を楽に作成するためのパッケージです。ある程度のところまでできています。
+
+        * \href(`https://github.com/puripuri2100/Jcounter`){Jcounter}:\line-break;
+          LaTeXで、日本で主に使われる数字の書き方に変換するコマンドを追加するパッケージです。完成まであと一歩、というところで止まっています。
+      }
+    >
+    +subsection{その他}<
+      +listing{
+        * \href(`https://github.com/puripuri2100/icon`){icon}:\line-break;
+          自分のアイコンとかスマホ用の壁紙とかの置き場所です。これからたまに更新していく予定です。
+
+        * \href(`https://github.com/puripuri2100/puripuri2100.github.io`){puripuri2100.github.io}:\line-break;
+          このファイルが置いてあるリポジトリです。
+      }
+    >
   >
 >
