@@ -12,7 +12,7 @@ document (|
   show-title = true;
   show-toc = true;
 |) '<
-  +p{\strong{お仕事募集中です！}SATySFiのクラスファイル作成を頼みたいといった方や、LaTeXパッケージのメンテナンスを頼みたいといった方は連絡していただけると嬉しいです。（学生なため、長時間の労働はできません。申し訳ありません。）}
+%  +p{\strong{お仕事募集中です！}SATySFiのクラスファイル作成を頼みたいといった方や、LaTeXパッケージのメンテナンスを頼みたいといった方は連絡していただけると嬉しいです。（学生なため、長時間の労働はできません。申し訳ありません。）}
   +section{自己紹介}<
     +p{\@puripuri2100です。主にLaTeXとTeX、SATySFiについてやっています。}
     +subsection{活動場所・連絡先}<
@@ -30,6 +30,8 @@ document (|
       +p{一応使える言語は
       \listing{
         * OCaml
+        * Rust
+        * Haskell
         * F\#
         * SATySFi
         * (TeX)
