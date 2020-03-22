@@ -1,0 +1,6 @@
+@require: html-base
+
+let-inline tinfo \strong it =
+  HTMLBase.tag tinfo `strong` (fun tinfo -> stringify-inline tinfo it)
+
+let-inline tinfo \line-break = `<br>`

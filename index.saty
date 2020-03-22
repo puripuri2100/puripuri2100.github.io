@@ -1,12 +1,14 @@
-@import: packages/site-cls
-@import: packages/itemize
-@import: packages/code
+@require: make-html/stdjahtml
+@require: make-html/itemize
+@require: make-html/code
+@require: make-html/url
 
+@import: local
 
 document (|
   title = {puripuri2100};
   author = {puripuri2100};
-  style = `main`;
+  style-sheet = `main`;
   show-title = true;
   show-toc = true;
 |) '<
