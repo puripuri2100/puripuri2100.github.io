@@ -53,6 +53,7 @@ document (|
       }
     >
     +section{記事紹介}<
+      +p{\href(`https://puripuri2100.github.io/blog/`){ブログ記事一覧}をご覧ください。}
       +listing{
         * \href(`https://qiita.com/puripuri2100/items/a63e0c48f245dfcb0446`){SATySFiに関すること} :\line-break;
         SATySFiに関することをまとめました。ちょっと古いかもしれません。
