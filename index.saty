@@ -14,7 +14,7 @@ document (|
 |) '<
 %  +p{\strong{お仕事募集中です！}SATySFiのクラスファイル作成を頼みたいといった方や、LaTeXパッケージのメンテナンスを頼みたいといった方は連絡していただけると嬉しいです。（学生なため、長時間の労働はできません。申し訳ありません。）}
   +section{自己紹介}<
-    +p{\@puripuri2100です。主にLaTeXとTeX、SATySFiについてやっています。}
+    +p{\@puripuri2100です。主にSATySFiとRust、ファイル変換についてやっています。}
     +subsection{活動場所・連絡先}<
       +listing{
         * \href(`https://twitter.com/puripuri2100`){Twitter}
