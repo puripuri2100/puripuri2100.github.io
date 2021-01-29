@@ -8,7 +8,7 @@
 document (|
   title = {puripuri2100};
   author = {puripuri2100};
-  style-sheet = `main`;
+  style-sheet = `main.css`;
   show-title = true;
   show-toc = true;
 |) '<
@@ -20,12 +20,13 @@ document (|
         * \href(`https://twitter.com/puripuri2100`){Twitter}
         * \href(`https://github.com/puripuri2100`){GitHub}
         * \href(`https://mathtod.online/@puripuri2100`){Mathtodon}
-        * \href(`https://mstdn.jp/@puripuri2100`){mstdn.jp}
+        %* \href(`https://mstdn.jp/@puripuri2100`){mstdn.jp}
         * Gmail : puripuri2100[at]gmail.com ([at]は\@に直してください)
       }
     >
     +subsection{経歴（みたいなもの）}<
       +p{2017年2月頃にpLaTeXに出会い、その後2018年1月頃にTeXとLuaLaTeXに出会い、2018年5月頃にSATySFiに出会いました。}
+      +p{また、OCamlやRustも使い始め、様々なソフトウェアを作成しています。}
       +p{一応使える言語は
       \listing{
         * OCaml
@@ -40,6 +41,7 @@ document (|
         * Windows10
         * Ubuntu on WSL
         * Ubuntu 18.04 LTS
+        * Ubuntu 20.04 LTS
       }です。}
     >
     +subsection{趣味}<
@@ -52,83 +54,95 @@ document (|
           虫食い算を作るのが好きです。と言ってもあまり難しいものが作れなくて困っています。最近は10進法以外の虫食い算にも興味があります。
       }
     >
-    +section{記事紹介}<
-      +p{\href(`https://puripuri2100.github.io/blog/`){ブログ記事一覧}をご覧ください。}
+  >
+  +section {実績} <
+    +subsection {SATySFi関連} <
+      +p{SATySFiのパッケージマネージャであるsatyrographosでインストール可能なライブラリ54個中、21個を作成・管理しています（2020/1/29時点）。クラスファイルも3個登録し、フォントライブラリも3個登録するなど、幅広い種類のライブラリを作成しています。}
+      +p{SATySFi本体に機能追加のプルリクエストやREADMEの修正のプルリクエストを送り、mergeされています。（\href(`https://github.com/gfngfn/SATySFi/pull/202`){\#202}, \href(`https://github.com/gfngfn/SATySFi/pull/229`){\#229}, \href(`https://github.com/gfngfn/SATySFi/pull/255`){\#255}）}
+      +p{SATySFiのパッケージマネージャである\href(`https://github.com/na4zagin3/satyrographos`){satyrographos}に機能追加のプルリクエストを送り、mergeされています。(\href(`https://github.com/na4zagin3/satyrographos/pull/255`){\#255})}
+      +p{SATySFiを学ぶためのドキュメント、を目指して「\href(`https://github.com/puripuri2100/learn-satysfi`){learn-satysfi}」というプロジェクトを立ち上げ、作成しています。作成途中ではありますが、「\href(`https://puripuri2100.github.io/learn-satysfi/`){GitHub Pages}」にて公開しています。2020/1/29時点でリポジトリのstar数は14です。}
+      +p{SATySFiの事実上の標準ライブラリを目指して作成されている\href(`https://github.com/nyuichi/satysfi-base`){satysfi-base}のauthorの一人であり、リポジトリに送られたプルリクエストのレビューをしたり、自分自身もリポジトリにプルリクエストを送るなどしています。
+      (\href(`https://github.com/nyuichi/satysfi-base/pull/3`){\#3},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/11`){\#11},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/50`){\#50},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/51`){\#51},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/52`){\#52},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/59`){\#59},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/62`){\#62},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/64`){\#64},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/72`){\#72},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/74`){\#74},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/75`){\#75},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/127`){\#127},
+      \href(`https://github.com/nyuichi/satysfi-base/pull/128`){\#128},)}
+    >
+    +subsection {Rust関連} <
+      +p{Rustのライブラリを集約したcrates.ioに自作のライブラリを2つ登録しています。}
+      +p{OCamlでJSONを解析する際に使われているyojsonというライブラリ独自の機能をRustでも使えるようにした「\href(`https://crates.io/crates/yojson-rs`){yojson-rs}」というライブラリは2020/1/29時点で34回ダウンロードされています。}
+      +p{Rust界隈で文書を作成する際に広く使われているmdbookというツールの拡張機能で、markdownファイル群からSATySFiのドキュメントファイルを自動生成する「\href(`https://crates.io/crates/mdbook-satysfi`){mdbook-satysfi}」というソフトウェアは2020/1/29時点で10回ダウンロードされています。}
+      +p{初心者がRustについて勉強する際に広く読まれている
+        「\href(`https://doc.rust-lang.org/book/`){The Rust Programming Language}」というRust公式のbookの日本語版である
+        「\href(`https://doc.rust-jp.rs/book-ja/`){The Rust Programming Language 日本語版}」にあった間違いを修正するプルリクエストを送り、mergeされています。（\href(`https://github.com/rust-lang-ja/book-ja/pull/139`){\#139}）}
+    >
+    +subsection {LaTeX関連} <
+      +p{ZRさんが作成した\href(`https://gist.github.com/zr-tex8r/bb26437b9d7678106ae02893f12f36bf`){tcmusikui.sty}を改造したmusikuiパッケージを作成し、CTANに
+      「\href(`https://www.ctan.org/pkg/musikui`){musikui – Easy creation of “arithmetical restoration” puzzles}」
+      として収録されています。TeX LiveにはTeX Live2018移行から収録され、MikTeXにも収録されています。}
+    >
+    +subsection {講演} <
       +listing{
-        * \href(`https://qiita.com/puripuri2100/items/a63e0c48f245dfcb0446`){SATySFiに関すること} :\line-break;
-        SATySFiに関することをまとめました。ちょっと古いかもしれません。
-
-        * \href(`https://qiita.com/puripuri2100/items/70f368d62d41b982017a`){Ubuntu on WSL にSATySFi v0.0.3を導入する} :\line-break;
-        Windows 10にSATySFiをインストールする方法を書きました。情報が古いので、v0.0.4が出たら新たに書くはずです。
-
-        * \href(`https://qiita.com/puripuri2100/items/519e5364297446b7071a`){SATySFiでカスタマイズが容易なクラスファイルを作成した} :\line-break;
-        exdesignクラスの紹介です。結構便利なのでぜひ使ってみてください。
-
-        * \href(`https://qiita.com/puripuri2100/items/8dfd35af9c1bfac0e1bf`){SATySFiでもSI単位を使いたい！} :\line-break;
-        SATySFi-siunitxパッケージの紹介です。
-
-        * \href(`https://puripuri2100.hatenablog.com/entry/2018/12/02/091222`){LuaLaTeXで部誌を作った話} :\line-break;
-        LuaLaTeXで部誌をを作った時の話です。
-
-
-%        * \href(`https://puripuri2100.github.io/SATySFi-new-cls/index.html`){SATySFiで新しいクラスファイルを作ってみる}
+        * \href(`https://texconf2019.tumblr.com/`){TeX Conf 2019}講演：\line-break;
+          「SATySFiのテキスト出力モードを使用したtexファイルの自動生成について」というタイトルで講演を行う予定でした。しかし、台風の影響で中止になってしまい、実際に講演を行うことが出来ませんでした。
+          発表する予定だったスライドのPDFへのリンクはこの「\href(`https://puripuri2100.hatenablog.com/entry/2019/12/22/151426`){TeXConf 2019の供養}」という記事に書いてあります。
+        * \href(`https://connpass.com/event/174844/`){SATySFi Conf 2020}講演：\line-break;
+          「カスタマイズ可能なクラスファイルについて」というタイトルで講演を行いました。
+          「\href(`https://speakerdeck.com/puripuri2100/kasutamaizuke-neng-nakurasuhuairunituite`){スライド}」と
+          「\href(`https://youtu.be/g39yZuvVu8w`){発表動画}」です。
+        * \href(`https://connpass.com/event/188075/`){Online.tex 2020}ショートコミュニケーション：\line-break;
+          「SATySFiを使用したMarkdownからLaTeXへのファイル変換について」というタイトルで発表を行いました。
+          そこで使用した「\href(`https://speakerdeck.com/puripuri2100/satysfiwoshi-yong-sitamarkdownkaralatexhefalsehuairubian-huan-nituite`){スライド}」です。
+      }
+    >
+    +subsection {コミュニティ運営} <
+      +listing{
+        * \href(`https://connpass.com/event/174844/`){SATySFi Conf 2020}主催：\line-break;
+          SATySFiのソフトウェア会議を主催しました。
+          \href(`https://puripuri2100.hatenablog.com/entry/2020/07/26/164203`){まとめ記事}と
+          \href(`https://www.youtube.com/playlist?list=PL0VFdv9CLkQ3nAE46ZvEztjQauzH0haZb`){発表動画}
+          です。
+        * SATySFi Advent Calendar主催：\line-break;
+          SATySFi Advent Calendarを
+          \href(`https://adventar.org/calendars/3418`){2018}・
+          \href(`https://adventar.org/calendars/3929`){2019}・
+          \href(`https://adventar.org/calendars/4965`){2020}
+          と3年間主催しました。2018と2020は完走を果たしています。
+        * SATySFi Slackの管理：\line-break;
+          \href(`https://satysfi.slack.com/`){SATySFi Slack}を開設し、管理しています。
+          日々情報共有や開発についての話し合い、質問やそれへの回答などが行われています。
       }
     >
   >
-  +section{GitHubのリポジトリについて}<
-    +subsection {SATySFi関係}<
-      +listing{
-        * \href(`https://github.com/puripuri2100/exdesign`){exdesign} :\line-break;
-        文書ごとにデザインを変更することを簡単にできるようにしたクラスファイルです。
+  +section{記事紹介}<
+    +p{\href(`https://puripuri2100.github.io/blog/`){ブログ記事一覧}にも記事があります。ぜひご覧ください。}
+    +p{また、はてなブログで「\href(`https://puripuri2100.hatenablog.com/`){puripuri2100が進捗の報告をするようです}」という技術ブログをやっています。}
+    +listing{
+      * \href(`https://qiita.com/puripuri2100/items/a63e0c48f245dfcb0446`){SATySFiに関すること} :\line-break;
+      SATySFiに関することをまとめました。ちょっと古いかもしれません。
 
-        * \href(`https://github.com/puripuri2100/stjarticle`){stjarticle} :\line-break;
-        SATySFiにもとからついているパッケージである、stdjaやstdjabookにいくつかのコマンドや機能を追加したものです。
+      * \href(`https://qiita.com/puripuri2100/items/70f368d62d41b982017a`){Ubuntu on WSL にSATySFi v0.0.3を導入する} :\line-break;
+      Windows 10にSATySFiをインストールする方法を書きました。情報が古いです。
 
-        * \href(`https://github.com/puripuri2100/musikui.satyh`){musikui.satyh} :\line-break;
-        SATySFiで虫食い算を描画するのに使えるパッケージです。
+      * \href(`https://qiita.com/puripuri2100/items/519e5364297446b7071a`){SATySFiでカスタマイズが容易なクラスファイルを作成した} :\line-break;
+      exdesignクラスの紹介です。結構便利なのでぜひ使ってみてください。
 
-        * \href(`https://github.com/puripuri2100/SATySFi-siunitx`){SATySFi-siunitx} :\line-break;
-        SATySFiで国際単位系(SI)を使いたい時に、それをサポートするためのパッケージです。
+      * \href(`https://qiita.com/puripuri2100/items/8dfd35af9c1bfac0e1bf`){SATySFiでもSI単位を使いたい！} :\line-break;
+      SATySFiで国際単位系を使うためのSATySFi-siunitxパッケージの紹介です。
 
-        * \href(`https://github.com/puripuri2100/SATySFi-uline`){SATySFi-uline} :\line-break;
-        SATySFiで下線を引く時に便利なパッケージです。直線以外にも点線や打ち消し線もあります。
+      * \href(`https://puripuri2100.hatenablog.com/entry/2018/12/02/091222`){LuaLaTeXで部誌を作った話} :\line-break;
+      LuaLaTeXで部誌をを作った時の話です。
 
-        * \href(`https://github.com/puripuri2100/SATySFi-new-cls`){SATySFi-new-cls} :\line-break;
-        改変を前提としたSATySFiのクラスファイル。やっていることの解説から改造の仕方までを説明する文書を公開するはず。
 
-        * \href(`https://github.com/puripuri2100/SATySFi-make-markdown`){SATySFi-make-markdown} :\line-break;
-        テキストモードを使って\code(`saty -> md`);の変換をするためのクラスファイルとパッケージ。
-
-        * \href(`https://github.com/puripuri2100/SATySFi-debug-show-value`){SATySFi-debug-show-value} :\line-break;
-        デバッグ用に使ってください。
-
-        * \href(`https://github.com/puripuri2100/SATySFi-clock-board`){SATySFi-clock-board} :\line-break;
-        SATySFiで時計版、やってみたくなるよね。
-
-        * \href(`https://github.com/puripuri2100/SATySFi-calendar`){SATySFi-calendar} :\line-break;
-        SATySFiでカレンダー、やってみたくなるよね。
-      }
-    >
-    +subsection{LaTeX関係}<
-      +listing{
-        * \href(`https://github.com/puripuri2100/musikui.sty`){musikui.sty}:\line-break;
-          掛け算とわり算の虫食い算をLaTeXで簡単に表現するためのパッケージです。CTANに収録され、TeXLive2018にも取り込まれています。
-
-        * \href(`https://github.com/puripuri2100/joubun`){joubun}:\line-break;
-          LaTeXで規則等を楽に作成するためのパッケージです。ある程度のところまでできています。
-
-        * \href(`https://github.com/puripuri2100/Jcounter`){Jcounter}:\line-break;
-          LaTeXで、日本で主に使われる数字の書き方に変換するコマンドを追加するパッケージです。完成まであと一歩、というところで止まっています。
-      }
-    >
-    +subsection{その他}<
-      +listing{
-        * \href(`https://github.com/puripuri2100/icon`){icon}:\line-break;
-          自分のアイコンとかスマホ用の壁紙とかの置き場所です。これからたまに更新していく予定です。
-
-        * \href(`https://github.com/puripuri2100/puripuri2100.github.io`){puripuri2100.github.io}:\line-break;
-          このファイルが置いてあるリポジトリです。
-      }
-    >
+      %* \href(`https://puripuri2100.github.io/SATySFi-new-cls/index.html`){SATySFiで新しいクラスファイルを作ってみる}
+    }
   >
 >
