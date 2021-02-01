@@ -58,7 +58,7 @@ document (|
   +section {実績} <
     +subsection {SATySFi関連} <
       +p{SATySFiのパッケージマネージャであるsatyrographosでインストール可能なライブラリ54個中、21個を作成・管理しています（2020/1/29時点）。クラスファイルも3個登録し、フォントライブラリも3個登録するなど、幅広い種類のライブラリを作成しています。}
-      +p{SATySFi本体に機能追加のプルリクエストやREADMEの修正のプルリクエストを送り、mergeされています。（\href(`https://github.com/gfngfn/SATySFi/pull/202`){\#202}, \href(`https://github.com/gfngfn/SATySFi/pull/229`){\#229}, \href(`https://github.com/gfngfn/SATySFi/pull/255`){\#255}）}
+      +p{SATySFi本体に機能追加のプルリクエストやREADMEの修正のプルリクエストを送り、mergeされています。（\href(`https://github.com/gfngfn/SATySFi/pull/126`){\#126}, \href(`https://github.com/gfngfn/SATySFi/pull/202`){\#202}, \href(`https://github.com/gfngfn/SATySFi/pull/229`){\#229}, \href(`https://github.com/gfngfn/SATySFi/pull/255`){\#255}）}
       +p{SATySFiのパッケージマネージャである\href(`https://github.com/na4zagin3/satyrographos`){satyrographos}に機能追加のプルリクエストを送り、mergeされています。(\href(`https://github.com/na4zagin3/satyrographos/pull/255`){\#255})}
       +p{SATySFiを学ぶためのドキュメント、を目指して「\href(`https://github.com/puripuri2100/learn-satysfi`){learn-satysfi}」というプロジェクトを立ち上げ、作成しています。作成途中ではありますが、「\href(`https://puripuri2100.github.io/learn-satysfi/`){GitHub Pages}」にて公開しています。2020/1/29時点でリポジトリのstar数は14です。}
       +p{SATySFiの事実上の標準ライブラリを目指して作成されている\href(`https://github.com/nyuichi/satysfi-base`){satysfi-base}のauthorの一人であり、リポジトリに送られたプルリクエストのレビューをしたり、自分自身もリポジトリにプルリクエストを送るなどしています。
