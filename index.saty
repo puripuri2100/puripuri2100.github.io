@@ -77,7 +77,7 @@ document (|
       \href(`https://github.com/nyuichi/satysfi-base/pull/128`){\#128},)}
     >
     +subsection {Rust関連} <
-      +p{Rustのライブラリを集約したcrates.ioに自作のライブラリを2つ登録しています。}
+      +p{Rustのライブラリを集約したcrates.ioに自作のライブラリを3つ登録しています。}
       +p{OCamlでJSONを解析する際に使われているyojsonというライブラリ独自の機能をRustでも使えるようにした「\href(`https://crates.io/crates/yojson-rs`){yojson-rs}」というライブラリは2020/2/17時点で48回ダウンロードされています。}
       +p{OCamlのパッケージマネージャであるOPAMの設定ファイルを解析する「\href(`https://crates.io/crates/opam-file-rs`){opam-file-rs}」というライブラリは2020/2/17時点で23回ダウンロードされています。}
       +p{Rust界隈で文書を作成する際に広く使われているmdbookというツールの拡張機能で、markdownファイル群からSATySFiのドキュメントファイルを自動生成する「\href(`https://crates.io/crates/mdbook-satysfi`){mdbook-satysfi}」というソフトウェアは2020/2/17時点で41回ダウンロードされています。}
