@@ -102,6 +102,9 @@ document (|
         * \href(`https://connpass.com/event/188075/`){Online.tex 2020}ショートコミュニケーション：\line-break;
           「SATySFiを使用したMarkdownからLaTeXへのファイル変換について」というタイトルで発表を行いました。
           そこで使用した「\href(`https://speakerdeck.com/puripuri2100/satysfiwoshi-yong-sitamarkdownkaralatexhefalsehuairubian-huan-nituite`){スライド}」です。
+        * \href(`https://uniquevision.connpass.com/event/202944/`){【初心者歓迎】Rust LT会\@オンライン}：\line-break;
+          「mdbookのプラグインを作る話」というタイトルでLT発表を行いました。
+          そこで使用した「\href(`https://speakerdeck.com/puripuri2100/mdbookfalsepuraguinwozuo-ruhua`){スライド}」です。
       }
     >
     +subsection {コミュニティ運営} <
