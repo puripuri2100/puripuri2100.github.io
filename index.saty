@@ -56,6 +56,9 @@ document (|
     >
   >
   +section {実績} <
+    +subsection{表彰など} <
+      +p{開成学園　学園特別賞受賞(2020年度)}
+    >
     +subsection {SATySFi関連} <
       +p{SATySFiのパッケージマネージャであるsatyrographosでインストール可能なライブラリ54個中、21個を作成・管理しています（2020/1/29時点）。クラスファイルも3個登録し、フォントライブラリも3個登録するなど、幅広い種類のライブラリを作成しています。}
       +p{SATySFi本体に機能追加のプルリクエストやREADMEの修正のプルリクエストを送り、mergeされています。（\href(`https://github.com/gfngfn/SATySFi/pull/126`){\#126}, \href(`https://github.com/gfngfn/SATySFi/pull/200`){\#200}, \href(`https://github.com/gfngfn/SATySFi/pull/202`){\#202}, \href(`https://github.com/gfngfn/SATySFi/pull/229`){\#229}, \href(`https://github.com/gfngfn/SATySFi/pull/255`){\#255}）}
