@@ -1,4 +1,4 @@
-@require: make-html/stdjahtml
+@import: cls
 @require: make-html/itemize
 @require: make-html/code
 @require: make-html/url
