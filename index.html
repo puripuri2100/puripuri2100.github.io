@@ -72,6 +72,21 @@
         
       </section>
     </section><section>
+      <h1>作成物</h1>
+      <ul>
+      <li><a href="https://github.com/puripuri2100/dlm">
+        dlm
+      </a>：<br>
+      高校の文化祭準備委員会に所属していたときに作成した貸出管理ソフトウェアです。Rustを用いて実装をし、オープンソースソフトウェアとしてGitHubで公開しています。</li>
+      <li>ニポリ15号・ニポリ16号：<br>
+      中学高校で所属していたパズル研究部の部誌を二年続けて作成しました。ニポリ15号はLuaLaTeXを用いて作成を行い、ニポリ16号はSATySFiを用いて作成を行いました。特に、例年の部誌は50ページ前後であったところを、ニポリ16号では歴代最大の120ページを実現するなど、大きな貢献を果たしました。</li>
+      <li>第76代赤組パンフレット：<br>
+      SATySFiを用いて200ページ弱の運動会の組独自のパンフレットを作成しました。組版・編集・写真撮影・写真加工のほぼ全てを一人で行いながらも他の組よりも2ヶ月程度早く入稿しました。</li>
+      <li>SATySFiのライブラリ：<br>
+      SATySFiで使用するためのライブラリを多数作成しました。詳しくは「実績/SATySFi関連」をご覧ください。</li>
+      </ul>
+      
+    </section><section>
       <h1>実績</h1>
       <section>
         <h2>表彰など</h2>
@@ -84,15 +99,24 @@
         <p>
           開成学園学園特別賞受賞(2020年度)：<br>「ソフトウェア研究の学校活動への応用」という理由で、OSS活動とそこでの経験を基にした学校活動でのソフトウェア作成や運動会活動が評価されました。
         </p>
+        <p>
+          開成ノーベル学会来場者賞（2021年）：<br>文化祭の発表イベントでOSSについて発表をし、来場者賞を受賞しました。
+        </p>
         
       </section><section>
         <h2>SATySFi関連</h2>
         <p>
-          SATySFiのパッケージマネージャであるsatyrographosでインストール可能なライブラリ62個中、27個を作成・管理しています（2020/5/07時点）。クラスファイルも3個登録し、フォントライブラリも5個登録するなど、幅広い種類のライブラリを作成しています。例えば、
+          SATySFiのパッケージマネージャであるsatyrographosでインストール可能なライブラリ68個中、29個を作成・管理しています（2021/10/18時点）。クラスファイルも3個登録し、フォントライブラリも5個登録するなど、幅広い種類のライブラリを作成しています。例えば、
           <ul>
           <li><a href="https://satyrographos-packages.netlify.app/packages/json">
             json
           </a>：SATySFiで実装したJSONとJSON5のパーサです</li>
+          <li><a href="https://satyrographos-packages.netlify.app/packages/csv">
+            csv
+          </a>：SATySFiで実装したCSVのパーサです</li>
+          <li><a href="https://satyrographos-packages.netlify.app/packages/code-printer">
+            code-printer
+          </a>：ソースコードを組むためのパッケージです</li>
           <li><a href="https://satyrographos-packages.netlify.app/packages/ruby">
             ruby
           </a>：SATySFiでルビを振るために使うパッケージです</li>
@@ -102,6 +126,15 @@
           <li><a href="https://satyrographos-packages.netlify.app/packages/uline">
             uline
           </a>：SATySFiで下線を引くために使うパッケージです</li>
+          <li><a href="https://satyrographos-packages.netlify.app/packages/image">
+            image
+          </a>：SATySFiで画像を扱う時に便利なパッケージです</li>
+          <li><a href="https://satyrographos-packages.netlify.app/packages/siunitx">
+            siunitx
+          </a>：SATySFiで国際単位系(SI)を扱うときに便利なパッケージです</li>
+          <li><a href="https://satyrographos-packages.netlify.app/packages/num-conversion">
+            num-conversion
+          </a>：SATySFiで数値と漢数字・ローマ数字などを相互変換するためのパッケージです</li>
           <li><a href="https://satyrographos-packages.netlify.app/packages/make-html">
             make-html
           </a>：SATySFiのテキスト出力モードを使用してHTMLを出力するためのパッケージ群です</li>
@@ -111,6 +144,9 @@
           <li><a href="https://satyrographos-packages.netlify.app/packages/class-exdesign">
             class-exdesign
           </a>：カスタマイズが可能なクラスファイルの提案形です</li>
+          <li><a href="https://satyrographos-packages.netlify.app/packages/fonts-noto-emoji">
+            fonts-noto-emoji
+          </a>：noto emojiフォントをSATySFiで扱えるようにするためのライブラリです</li>
           </ul>
           
           などがあります。
@@ -199,22 +235,22 @@
         <p>
           OCamlでJSONを解析する際に使われているyojsonというライブラリ独自の機能をRustでも使えるようにした「<a href="https://crates.io/crates/yojson-rs">
             yojson-rs
-          </a>」というライブラリは2020/5/07時点で102回ダウンロードされています。
+          </a>」というライブラリは2021/10/18時点で213回ダウンロードされています。
         </p>
         <p>
           OCamlのパッケージマネージャであるOPAMの設定ファイルを解析する「<a href="https://crates.io/crates/opam-file-rs">
             opam-file-rs
-          </a>」というライブラリは2020/5/07時点で69回ダウンロードされています。
+          </a>」というライブラリは2021/10/18時点で146回ダウンロードされています。
         </p>
         <p>
           Rust界隈で文書を作成する際に広く使われているmdbookというツールの拡張機能で、markdownファイル群からSATySFiのドキュメントファイルを自動生成する「<a href="https://crates.io/crates/mdbook-satysfi">
             mdbook-satysfi
-          </a>」というソフトウェアは2020/5/07時点で90回ダウンロードされています。
+          </a>」というソフトウェアは2021/10/18時点で245回ダウンロードされています。
         </p>
         <p>
           独自文法の設定ファイルからLL(1)のRust用トークンパーサを生成する「<a href="https://crates.io/crates/llmaker">
             llmaker
-          </a>」というソフトウェアは2020/5/07時点で27回ダウンロードされています。
+          </a>」というソフトウェアは2021/10/18時点で37回ダウンロードされています。
         </p>
         <p>
           初心者がRustについて勉強する際に広く読まれている
@@ -326,7 +362,7 @@
           </a>を作成したり、係員を指揮したりして、文化祭の円滑な準備に貢献しました。
         </p>
         <p>
-          第76代赤組庶務係チーフ：<br>第76代赤組庶務係チーフを務め、198頁ある赤組公式パンフレットをSATySFiで作成しました。また、庶務係を統括しました。
+          第76代赤組庶務係チーフ：<br>第76代赤組庶務係チーフを務め、198頁ある赤組公式パンフレットをSATySFiで作成しました。また、庶務係を統括して運動会の成功に貢献しました。
         </p>
         
       </section>

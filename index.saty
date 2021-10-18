@@ -56,22 +56,41 @@ document (|
       }
     >
   >
+  +section {作成物} <
+    +listing{
+      * \href(`https://github.com/puripuri2100/dlm`){dlm}：\line-break;
+        高校の文化祭準備委員会に所属していたときに作成した貸出管理ソフトウェアです。Rustを用いて実装をし、オープンソースソフトウェアとしてGitHubで公開しています。
+      * ニポリ15号・ニポリ16号：\line-break;
+        中学高校で所属していたパズル研究部の部誌を二年続けて作成しました。ニポリ15号はLuaLaTeXを用いて作成を行い、ニポリ16号はSATySFiを用いて作成を行いました。特に、例年の部誌は50ページ前後であったところを、ニポリ16号では歴代最大の120ページを実現するなど、大きな貢献を果たしました。
+      * 第76代赤組パンフレット：\line-break;
+        SATySFiを用いて200ページ弱の運動会の組独自のパンフレットを作成しました。組版・編集・写真撮影・写真加工のほぼ全てを一人で行いながらも他の組よりも2ヶ月程度早く入稿しました。
+      * SATySFiのライブラリ：\line-break;
+        SATySFiで使用するためのライブラリを多数作成しました。詳しくは「実績/SATySFi関連」をご覧ください。
+    }
+  >
   +section {実績} <
     +subsection{表彰など} <
       +p{中二Y2b（夏休み研究レポート）：\line-break;「死刑は廃止するべきか否か」というタイトルのレポートが評価され、先生方の審査で学年第三位に選ばれました。}
       +p{中三学年での学年特別賞受賞(2018年度)：\line-break;「SATySFiでのカスタマイズが容易なクラスファイルの作成について」というタイトルのレポートが評価されました。}
       +p{開成学園学園特別賞受賞(2020年度)：\line-break;「ソフトウェア研究の学校活動への応用」という理由で、OSS活動とそこでの経験を基にした学校活動でのソフトウェア作成や運動会活動が評価されました。}
+      +p{開成ノーベル学会来場者賞（2021年）：\line-break;文化祭の発表イベントでOSSについて発表をし、来場者賞を受賞しました。}
     >
     +subsection {SATySFi関連} <
-      +p{SATySFiのパッケージマネージャであるsatyrographosでインストール可能なライブラリ62個中、27個を作成・管理しています（2020/5/07時点）。クラスファイルも3個登録し、フォントライブラリも5個登録するなど、幅広い種類のライブラリを作成しています。例えば、
+      +p{SATySFiのパッケージマネージャであるsatyrographosでインストール可能なライブラリ68個中、29個を作成・管理しています（2021/10/18時点）。クラスファイルも3個登録し、フォントライブラリも5個登録するなど、幅広い種類のライブラリを作成しています。例えば、
         \listing{
           * \href(`https://satyrographos-packages.netlify.app/packages/json`){json}：SATySFiで実装したJSONとJSON5のパーサです
+          * \href(`https://satyrographos-packages.netlify.app/packages/csv`){csv}：SATySFiで実装したCSVのパーサです
+          * \href(`https://satyrographos-packages.netlify.app/packages/code-printer`){code-printer}：ソースコードを組むためのパッケージです
           * \href(`https://satyrographos-packages.netlify.app/packages/ruby`){ruby}：SATySFiでルビを振るために使うパッケージです
           * \href(`https://satyrographos-packages.netlify.app/packages/tombo`){tombo}：SATySFiでトンボや裁ち落としを設定するための関数を提供するパッケージです。
           * \href(`https://satyrographos-packages.netlify.app/packages/uline`){uline}：SATySFiで下線を引くために使うパッケージです
+          * \href(`https://satyrographos-packages.netlify.app/packages/image`){image}：SATySFiで画像を扱う時に便利なパッケージです
+          * \href(`https://satyrographos-packages.netlify.app/packages/siunitx`){siunitx}：SATySFiで国際単位系(SI)を扱うときに便利なパッケージです
+          * \href(`https://satyrographos-packages.netlify.app/packages/num-conversion`){num-conversion}：SATySFiで数値と漢数字・ローマ数字などを相互変換するためのパッケージです
           * \href(`https://satyrographos-packages.netlify.app/packages/make-html`){make-html}：SATySFiのテキスト出力モードを使用してHTMLを出力するためのパッケージ群です
           * \href(`https://satyrographos-packages.netlify.app/packages/fonts-han-sans-jp`){fonts-han-sans-jp}：源ノ角ゴシックをインストールするためのライブラリです
           * \href(`https://satyrographos-packages.netlify.app/packages/class-exdesign`){class-exdesign}：カスタマイズが可能なクラスファイルの提案形です
+          * \href(`https://satyrographos-packages.netlify.app/packages/fonts-noto-emoji`){fonts-noto-emoji}：noto emojiフォントをSATySFiで扱えるようにするためのライブラリです
         }
         などがあります。
       }
@@ -95,10 +114,10 @@ document (|
     >
     +subsection {Rust関連} <
       +p{Rustのライブラリを集約したcrates.ioに自作のライブラリを4つ登録しています。}
-      +p{OCamlでJSONを解析する際に使われているyojsonというライブラリ独自の機能をRustでも使えるようにした「\href(`https://crates.io/crates/yojson-rs`){yojson-rs}」というライブラリは2020/5/07時点で102回ダウンロードされています。}
-      +p{OCamlのパッケージマネージャであるOPAMの設定ファイルを解析する「\href(`https://crates.io/crates/opam-file-rs`){opam-file-rs}」というライブラリは2020/5/07時点で69回ダウンロードされています。}
-      +p{Rust界隈で文書を作成する際に広く使われているmdbookというツールの拡張機能で、markdownファイル群からSATySFiのドキュメントファイルを自動生成する「\href(`https://crates.io/crates/mdbook-satysfi`){mdbook-satysfi}」というソフトウェアは2020/5/07時点で90回ダウンロードされています。}
-      +p{独自文法の設定ファイルからLL(1)のRust用トークンパーサを生成する「\href(`https://crates.io/crates/llmaker`){llmaker}」というソフトウェアは2020/5/07時点で27回ダウンロードされています。}
+      +p{OCamlでJSONを解析する際に使われているyojsonというライブラリ独自の機能をRustでも使えるようにした「\href(`https://crates.io/crates/yojson-rs`){yojson-rs}」というライブラリは2021/10/18時点で213回ダウンロードされています。}
+      +p{OCamlのパッケージマネージャであるOPAMの設定ファイルを解析する「\href(`https://crates.io/crates/opam-file-rs`){opam-file-rs}」というライブラリは2021/10/18時点で146回ダウンロードされています。}
+      +p{Rust界隈で文書を作成する際に広く使われているmdbookというツールの拡張機能で、markdownファイル群からSATySFiのドキュメントファイルを自動生成する「\href(`https://crates.io/crates/mdbook-satysfi`){mdbook-satysfi}」というソフトウェアは2021/10/18時点で245回ダウンロードされています。}
+      +p{独自文法の設定ファイルからLL(1)のRust用トークンパーサを生成する「\href(`https://crates.io/crates/llmaker`){llmaker}」というソフトウェアは2021/10/18時点で37回ダウンロードされています。}
       +p{初心者がRustについて勉強する際に広く読まれている
         「\href(`https://doc.rust-lang.org/book/`){The Rust Programming Language}」というRust公式のbookの日本語版である
         「\href(`https://doc.rust-jp.rs/book-ja/`){The Rust Programming Language 日本語版}」にあった間違いを修正するプルリクエストを送り、mergeされています。（\href(`https://github.com/rust-lang-ja/book-ja/pull/139`){\#139}）}
@@ -148,7 +167,7 @@ document (|
       +p{8代目パズル研究部部長：\line-break;開成学園パズル研究部の部長を2019年・2020年に務めました。}
       +p{パズル研究部編集長：\line-break;開成学園パズル研究部の編集長を2017年から2020年まで務め、LaTeXやSATySFiを用いた部誌の作成を行いました。特に2019年の文化祭では歴代最大となる120頁の部誌を1200部作成し配布しました。}
       +p{149th文化祭準備委員会・150th文化祭準備委員会電気係サブチーフ：\line-break;開成学園文化祭準備委員会電気係サブチーフを務め、電気係の作業の効率化のために\href(`https://github.com/puripuri2100/dlm`){貸出管理ソフトウェア"dlm"}を作成したり、係員を指揮したりして、文化祭の円滑な準備に貢献しました。}
-      +p{第76代赤組庶務係チーフ：\line-break;第76代赤組庶務係チーフを務め、198頁ある赤組公式パンフレットをSATySFiで作成しました。また、庶務係を統括しました。}
+      +p{第76代赤組庶務係チーフ：\line-break;第76代赤組庶務係チーフを務め、198頁ある赤組公式パンフレットをSATySFiで作成しました。また、庶務係を統括して運動会の成功に貢献しました。}
     >
   >
   +section{記事紹介}<
