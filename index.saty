@@ -12,205 +12,92 @@ document (|
   show-title = true;
   show-toc = true;
 |) '<
-%  +p{\strong{お仕事募集中です！}SATySFiのクラスファイル作成を頼みたいといった方や、LaTeXパッケージのメンテナンスを頼みたいといった方は連絡していただけると嬉しいです。（学生なため、長時間の労働はできません。申し訳ありません。）}
-  +section{自己紹介}<
-    +p{\@puripuri2100です。主にSATySFiとRust、ファイル変換についてやっています。}
-    +subsection{活動場所・連絡先}<
-      +listing{
-        * \href(`https://twitter.com/puripuri2100`){Twitter}
-        * \href(`https://github.com/puripuri2100`){GitHub}
-        * \href(`https://mathtod.online/@puripuri2100`){Mathtodon}
-        %* \href(`https://mstdn.jp/@puripuri2100`){mstdn.jp}
-        * Gmail : puripuri2100[at]gmail.com ([at]は\@に直してください)
-        * \href(`https://photo.puripuri2100.site`){photo.puripuri2100.site}（自分が撮った写真を公開しています）
-      }
-    >
-    +subsection{経歴}<
-      +p{2022年3月に開成高校を卒業しました。}
-      +p{現在、筑波大学情報学群情報科学類で学生をやっています。また、\href(`http://www.ac-room.org/`){産学間連携推進室}という研究室に所属をしています。}
-    >
-    +subsection {技術} <
-      +listing {
-        * SATySFiのパッケージ作成
-        * SATySFiの外部ツール作成
-        * Rustを使用したGUIソフトウェアの作成
-        * Rustを使用した効率化ツールの作成
-        * 自宅ネットワークの構築
-        * 趣味を発進するためのWebサイトの作成
-      }
-      +p{などを行っています。}
-    >
-    +subsection {研究} <
-      +p{法令の解析・平易化を上記の産学間連携推進室で行っています。}
-      +p{作成したソフトウェアは\href(`https://github.com/japanese-law-analysis`){github.com/japanese-law-analysis}で公開しています。}
-    >
-    +subsection{趣味}<
-      +listing{
-        * ジャグリング：\line-break;
-          ディアボロとボールを主にやっています。ディアボロは3ディアの練習を、ボールは5ボールと4ボールの技数を増やすための練習をしています。
-        * 読書：\line-break;
-          小説を読んだり漫画を読んだりその他諸々を読んだりしています。
-        * 虫食い算：\line-break;
-          虫食い算を作るのが好きです。と言ってもあまり難しいものが作れなくて困っています。最近は10進法以外の虫食い算にも興味があります。
-        * スポーツ観戦：\line-break;
-          モータースポーツやラグビーを見るのが好きです。モータースポーツはSUPER GT・WEC・Formula Eなどが好きで、ラグビーは欧州などの国際試合が好きです。
-        * ドライブ：\line-break;
-          日産 ティーダのMT仕様に乗っています。
-        * カメラ：\line-break;
-          Nikon F3・Nikon D7500・Nikon Z6を所有しています。主に風景写真と植物を撮ります。\href(`https://photo.puripuri2100.site`){photo.puripuri2100.site}に撮った写真を上げています。
-      }
-    >
-  >
-  +section {作成物} <
-    +listing{
-      * \href(`https://github.com/puripuri2100/dlm`){dlm}：\line-break;
-        高校の文化祭準備委員会に所属していたときに作成した貸出管理ソフトウェアです。Rustを用いて実装をし、オープンソースソフトウェアとしてGitHubで公開しています。
-      * ニポリ15号・ニポリ16号：\line-break;
-        中学高校で所属していたパズル研究部の部誌を二年続けて作成しました。ニポリ15号はLuaLaTeXを用いて作成を行い、ニポリ16号はSATySFiを用いて作成を行いました。特に、例年の部誌は50ページ前後であったところを、ニポリ16号では歴代最大の120ページを実現するなど、大きな貢献を果たしました。
-      * 第76代赤組パンフレット：\line-break;
-        SATySFiを用いて200ページ弱の運動会の組独自のパンフレットを作成しました。組版・編集・写真撮影・写真加工のほぼ全てを一人で行いながらも他の組よりも2ヶ月程度早く入稿しました。
-      * SATySFiのライブラリ：\line-break;
-        SATySFiで使用するためのライブラリを多数作成しました。詳しくは「実績/SATySFi関連」をご覧ください。
+  +section ?:(`profile`) {Profile} <
+    +listing {
+      * Name : Naoki Kaneko
+      * Live in : Ibaraki, Japan
     }
   >
-  +section {実績} <
-    +subsection{表彰など} <
-      +p{中二Y2b（夏休み研究レポート）：\line-break;「死刑は廃止するべきか否か」というタイトルのレポートが評価され、先生方の審査で学年第三位に選ばれました。}
-      +p{中三学年での学年特別賞受賞(2018年度)：\line-break;「SATySFiでのカスタマイズが容易なクラスファイルの作成について」というタイトルのレポートが評価されました。}
-      +p{開成学園学園特別賞受賞(2020年度)：\line-break;「ソフトウェア研究の学校活動への応用」という理由で、OSS活動とそこでの経験を基にした学校活動でのソフトウェア作成や運動会活動が評価されました。}
-      +p{開成ノーベル学会来場者賞（2021年）：\line-break;文化祭の発表イベントでOSSについて発表をし、来場者賞を受賞しました。}
-    >
-    +subsection {SATySFi関連} <
-      +p{SATySFiのパッケージマネージャであるsatyrographosでインストール可能なライブラリ68個中、29個を作成・管理しています（2021/10/18時点）。クラスファイルも3個登録し、フォントライブラリも5個登録するなど、幅広い種類のライブラリを作成しています。例えば、
-        \listing{
-          * \href(`https://satyrographos-packages.netlify.app/packages/json`){json}：SATySFiで実装したJSONとJSON5のパーサです
-          * \href(`https://satyrographos-packages.netlify.app/packages/csv`){csv}：SATySFiで実装したCSVのパーサです
-          * \href(`https://satyrographos-packages.netlify.app/packages/code-printer`){code-printer}：ソースコードを組むためのパッケージです
-          * \href(`https://satyrographos-packages.netlify.app/packages/ruby`){ruby}：SATySFiでルビを振るために使うパッケージです
-          * \href(`https://satyrographos-packages.netlify.app/packages/tombo`){tombo}：SATySFiでトンボや裁ち落としを設定するための関数を提供するパッケージです。
-          * \href(`https://satyrographos-packages.netlify.app/packages/uline`){uline}：SATySFiで下線を引くために使うパッケージです
-          * \href(`https://satyrographos-packages.netlify.app/packages/image`){image}：SATySFiで画像を扱う時に便利なパッケージです
-          * \href(`https://satyrographos-packages.netlify.app/packages/siunitx`){siunitx}：SATySFiで国際単位系(SI)を扱うときに便利なパッケージです
-          * \href(`https://satyrographos-packages.netlify.app/packages/num-conversion`){num-conversion}：SATySFiで数値と漢数字・ローマ数字などを相互変換するためのパッケージです
-          * \href(`https://satyrographos-packages.netlify.app/packages/make-html`){make-html}：SATySFiのテキスト出力モードを使用してHTMLを出力するためのパッケージ群です
-          * \href(`https://satyrographos-packages.netlify.app/packages/fonts-han-sans-jp`){fonts-han-sans-jp}：源ノ角ゴシックをインストールするためのライブラリです
-          * \href(`https://satyrographos-packages.netlify.app/packages/class-exdesign`){class-exdesign}：カスタマイズが可能なクラスファイルの提案形です
-          * \href(`https://satyrographos-packages.netlify.app/packages/fonts-noto-emoji`){fonts-noto-emoji}：noto emojiフォントをSATySFiで扱えるようにするためのライブラリです
-        }
-        などがあります。
-      }
-      +p{SATySFi本体に機能追加のプルリクエストやREADMEの修正のプルリクエストを送り、mergeされています。（\href(`https://github.com/gfngfn/SATySFi/pull/126`){\#126}, \href(`https://github.com/gfngfn/SATySFi/pull/200`){\#200}, \href(`https://github.com/gfngfn/SATySFi/pull/202`){\#202}, \href(`https://github.com/gfngfn/SATySFi/pull/229`){\#229}, \href(`https://github.com/gfngfn/SATySFi/pull/255`){\#255}, \href(`https://github.com/gfngfn/SATySFi/pull/268`){\#268}）}
-      +p{SATySFiのパッケージマネージャである\href(`https://github.com/na4zagin3/satyrographos`){satyrographos}に機能追加のプルリクエストを送り、mergeされています。(\href(`https://github.com/na4zagin3/satyrographos/pull/255`){\#255}, \href(`https://github.com/na4zagin3/satyrographos/pull/276`){\#276})}
-      +p{SATySFiを学ぶためのドキュメント、を目指して「\href(`https://github.com/puripuri2100/learn-satysfi`){learn-satysfi}」というプロジェクトを立ち上げ、作成しています。作成途中ではありますが、「\href(`https://puripuri2100.github.io/learn-satysfi/`){GitHub Pages}」にて公開しています。2020/4/19時点でリポジトリのstar数は14です。}
-      +p{SATySFiの事実上の標準ライブラリを目指して作成されている\href(`https://github.com/nyuichi/satysfi-base`){satysfi-base}のauthorの一人であり、リポジトリに送られたプルリクエストのレビューをしたり、自分自身もリポジトリにプルリクエストを送るなどしています。
-      (\href(`https://github.com/nyuichi/satysfi-base/pull/3`){\#3},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/11`){\#11},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/50`){\#50},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/51`){\#51},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/52`){\#52},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/59`){\#59},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/62`){\#62},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/64`){\#64},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/72`){\#72},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/74`){\#74},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/75`){\#75},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/127`){\#127},
-      \href(`https://github.com/nyuichi/satysfi-base/pull/128`){\#128})}
-    >
-    +subsection {Rust関連} <
-      +p{Rustのライブラリを集約したcrates.ioに自作のライブラリを4つ登録しています。}
-      +p{OCamlでJSONを解析する際に使われているyojsonというライブラリ独自の機能をRustでも使えるようにした「\href(`https://crates.io/crates/yojson-rs`){yojson-rs}」というライブラリは2021/10/18時点で213回ダウンロードされています。}
-      +p{OCamlのパッケージマネージャであるOPAMの設定ファイルを解析する「\href(`https://crates.io/crates/opam-file-rs`){opam-file-rs}」というライブラリは2021/10/18時点で146回ダウンロードされています。}
-      +p{Rust界隈で文書を作成する際に広く使われているmdbookというツールの拡張機能で、markdownファイル群からSATySFiのドキュメントファイルを自動生成する「\href(`https://crates.io/crates/mdbook-satysfi`){mdbook-satysfi}」というソフトウェアは2021/10/18時点で245回ダウンロードされています。}
-      +p{独自文法の設定ファイルからLL(1)のRust用トークンパーサを生成する「\href(`https://crates.io/crates/llmaker`){llmaker}」というソフトウェアは2021/10/18時点で37回ダウンロードされています。}
-      +p{初心者がRustについて勉強する際に広く読まれている
-        「\href(`https://doc.rust-lang.org/book/`){The Rust Programming Language}」というRust公式のbookの日本語版である
-        「\href(`https://doc.rust-jp.rs/book-ja/`){The Rust Programming Language 日本語版}」にあった間違いを修正するプルリクエストを送り、mergeされています。（\href(`https://github.com/rust-lang-ja/book-ja/pull/139`){\#139}）}
-      +p{自分が撮影した写真のタグ付けを行うための\href(`https://github.com/puripuri2100/photag`){photag}というGUIソフトウェアを作成しています。}
-    >
-    +subsection {LaTeX関連} <
-      +p{ZRさんが作成した\href(`https://gist.github.com/zr-tex8r/bb26437b9d7678106ae02893f12f36bf`){tcmusikui.sty}を改造したmusikuiパッケージを作成し、CTANに
-      「\href(`https://www.ctan.org/pkg/musikui`){musikui – Easy creation of “arithmetical restoration” puzzles}」
-      として収録されています。TeX LiveにはTeX Live2018移行から収録され、MikTeXにも収録されています。}
-    >
-    +subsection {講演} <
-      +listing{
-        * \href(`https://texconf2019.tumblr.com/`){TeX Conf 2019}講演：\line-break;
-          「SATySFiのテキスト出力モードを使用したtexファイルの自動生成について」というタイトルで講演を行う予定でした。しかし、台風の影響で中止になってしまい、実際に講演を行うことが出来ませんでした。
-          発表する予定だったスライドのPDFへのリンクはこの「\href(`https://puripuri2100.hatenablog.com/entry/2019/12/22/151426`){TeXConf 2019の供養}」という記事に書いてあります。
-        * \href(`https://connpass.com/event/174844/`){SATySFi Conf 2020}講演：\line-break;
-          「カスタマイズ可能なクラスファイルについて」というタイトルで講演を行いました。
-          「\href(`https://speakerdeck.com/puripuri2100/kasutamaizuke-neng-nakurasuhuairunituite`){スライド}」と
-          「\href(`https://youtu.be/g39yZuvVu8w`){発表動画}」です。
-        * \href(`https://connpass.com/event/188075/`){Online.tex 2020}ショートコミュニケーション：\line-break;
-          「SATySFiを使用したMarkdownからLaTeXへのファイル変換について」というタイトルで発表を行いました。
-          そこで使用した「\href(`https://speakerdeck.com/puripuri2100/satysfiwoshi-yong-sitamarkdownkaralatexhefalsehuairubian-huan-nituite`){スライド}」です。
-        * \href(`https://uniquevision.connpass.com/event/202944/`){【初心者歓迎】Rust LT会\@オンライン}：\line-break;
-          「mdbookのプラグインを作る話」というタイトルでLT発表を行いました。
-          そこで使用した「\href(`https://speakerdeck.com/puripuri2100/mdbookfalsepuraguinwozuo-ruhua`){スライド}」です。
-        * \href(`https://connpass.com/event/206277/`){SATySFi Conf 2021}講演：\line-break;
-          「mdbook-satysfiを作成しました」というタイトルで講演を行いました。
-          「\href(`https://speakerdeck.com/puripuri2100/mdbook-satysfiwozuo-cheng-simasita`){スライド}」です。
-        * \href(`https://connpass.com/event/247712/`){SATySFi Conf 2022}講演：\line-break;
-          「ユーザーがカスタマイズできるクラスファイル ―v0.0.x と v0.1.x それぞれでの実装―」というタイトルで講演を行いました。
-          「\href(`https://speakerdeck.com/puripuri2100/yuzagakasutamaizudekirukurasuhuairu-v0-dot-0-x-to-v0-dot-1-x-sorezoredenoshi-zhuang`){スライド}」です。
-      }
-    >
-    +subsection {コミュニティ運営} <
-      +listing{
-        * SATySFi Conf主催 ：\line-break;
-          SATySFiのソフトウェア会議を主催しました。
-          ** \href(`https://connpass.com/event/174844/`){SATySFi Conf 2020}
-          *** \href(`https://puripuri2100.hatenablog.com/entry/2020/07/26/164203`){まとめ記事}
-          *** \href(`https://www.youtube.com/playlist?list=PL0VFdv9CLkQ3nAE46ZvEztjQauzH0haZb`){発表動画}
-          ** \href(`https://connpass.com/event/206277/`){SATySFi Conf 2021}
-          *** \href(`https://puripuri2100.hatenablog.com/entry/2022/01/20/205344`){まとめ記事}
-          *** \href(`https://youtu.be/m3xa9__DRaw`){イベント録画}
-          ** \href(`https://connpass.com/event/247712/`){SATySFi Conf 2022}
-          %*** \href(`https://puripuri2100.hatenablog.com/entry/2020/07/26/164203`){まとめ記事}
-          *** \href(`https://youtu.be/_3U0SHc81bc`){イベント録画}
-        * SATySFi Advent Calendar主催：\line-break;
-          SATySFi Advent Calendarを
-          ** \href(`https://adventar.org/calendars/3418`){2018}
-          ** \href(`https://adventar.org/calendars/3929`){2019}
-          ** \href(`https://adventar.org/calendars/4965`){2020}
-          ** \href(`https://adventar.org/calendars/6336`){2021}
-          ** \href(`https://adventar.org/calendars/7515`){2022}
-          と5年間主催しました。2018と2020は完走を果たしています。
-        * SATySFi Slackの管理：\line-break;
-          \href(`https://satysfi.slack.com/`){SATySFi Slack}を開設し、管理しています。
-          日々情報共有や開発についての話し合い、質問やそれへの回答などが行われています。
-      }
-    >
-    +subsection{学校関係} <
-      +p{15代目J.G.K.部長：\line-break;開成学園のジャグリング部であるJ.G.K.の部長を2019年・2020年に務めました。}
-      +p{8代目パズル研究部部長：\line-break;開成学園パズル研究部の部長を2019年・2020年に務めました。}
-      +p{パズル研究部編集長：\line-break;開成学園パズル研究部の編集長を2017年から2020年まで務め、LaTeXやSATySFiを用いた部誌の作成を行いました。特に2019年の文化祭では歴代最大となる120頁の部誌を1200部作成し配布しました。}
-      +p{149th文化祭準備委員会・150th文化祭準備委員会電気係サブチーフ：\line-break;開成学園文化祭準備委員会電気係サブチーフを務め、電気係の作業の効率化のために\href(`https://github.com/puripuri2100/dlm`){貸出管理ソフトウェア"dlm"}を作成したり、係員を指揮したりして、文化祭の円滑な準備に貢献しました。}
-      +p{第76代赤組庶務係チーフ：\line-break;第76代赤組庶務係チーフを務め、198頁ある赤組公式パンフレットをSATySFiで作成しました。また、庶務係を統括して運動会の成功に貢献しました。}
-    >
-  >
-  +section{記事紹介}<
-    +p{\href(`https://puripuri2100.github.io/blog/`){ブログ記事一覧}にも記事があります。ぜひご覧ください。}
-    +p{また、はてなブログで「\href(`https://puripuri2100.hatenablog.com/`){puripuri2100が進捗の報告をするようです}」という技術ブログをやっています。}
-    +listing{
-      * \href(`https://qiita.com/puripuri2100/items/a63e0c48f245dfcb0446`){SATySFiに関すること} :\line-break;
-      SATySFiに関することをまとめました。ちょっと古いかもしれません。
-
-      * \href(`https://qiita.com/puripuri2100/items/70f368d62d41b982017a`){Ubuntu on WSL にSATySFi v0.0.3を導入する} :\line-break;
-      Windows 10にSATySFiをインストールする方法を書きました。情報が古いです。
-
-      * \href(`https://qiita.com/puripuri2100/items/519e5364297446b7071a`){SATySFiでカスタマイズが容易なクラスファイルを作成した} :\line-break;
-      exdesignクラスの紹介です。結構便利なのでぜひ使ってみてください。
-
-      * \href(`https://qiita.com/puripuri2100/items/8dfd35af9c1bfac0e1bf`){SATySFiでもSI単位を使いたい！} :\line-break;
-      SATySFiで国際単位系を使うためのSATySFi-siunitxパッケージの紹介です。
-
-      * \href(`https://puripuri2100.hatenablog.com/entry/2018/12/02/091222`){LuaLaTeXで部誌を作った話} :\line-break;
-      LuaLaTeXで部誌を作った時の話です。
-
-
-      %* \href(`https://puripuri2100.github.io/SATySFi-new-cls/index.html`){SATySFiで新しいクラスファイルを作ってみる}
+  +section ?:(`contact`) {Contact} <
+    +listing {
+      * E-mail: \href(`mailto:puripuri2100@gmail.com`){puripuri2100\@gmail.com}
+      * GitHub: \href(`https://github.com/puripuri2100`){\@puripuri2100}
+      * X(twitter) : \href(`https://twitter.com/puripuri2100`){\@puripuri2100}
+      * GitLab: \href(`https://gitlab.com/puripuri2100`){\@puripuri2100}
+      * Mastodon: \href(`https://mstdn.jp/@puripuri2100`){\@puripuri2100\@mstdn.jp}
     }
   >
+  +section ?:(`interests`) {Interests} <
+    +listing {
+      * Typography
+        ** Programming language for automatic typesetting
+          *** \href(`https://github.com/gfngfn/SATySFi`){SATySFi}
+            **** Typeset source code library \href(`https://github.com/puripuri2100/satysfi-code-printer`){[GitHub Repository]}
+            **** Flexible setting able SATySFi class file: \href(`https://github.com/puripuri2100/satysfi-class-template`){[GitHub Repository]}
+            **** Documentation for SATySFi tutorial: \href(`https://github.com/puripuri2100/learn-satysfi`){[GitHub Repository]}
+            **** A mdbook backend for generating SATySFi documents: \href(`https://github.com/puripuri2100/mdbook-satysfi`){[GitHub Repository]}
+            **** Hosted some events:
+              ***** \href(`https://connpass.com/event/247712/`){SATySFi Conf 2022}
+              ***** \href(`https://adventar.org/calendars/7515`){SATySFi Advent Calendar 2022}
+              ***** ...
+            **** Japanese-style ruby（ルビ） library: \href(`https://github.com/puripuri2100/SATySFi-ruby`){[GitHub Repository]}
+          *** \href(`https://www.latex-project.org/`){LaTeX}
+            **** Easy creation of “arithmetical restoration” puzzles: \href(`https://ctan.org/pkg/musikui`){[CTAN Repository]}
+        ** Created some booklets
+          *** Club activity booklets at high school: \href(`https://nipori.gitlab.io/nipori/index.html`){二ポリ(lang:ja)}
+          *** Graduation essay collection at high school
+          *** New student welcome booklet at university: \href(`https://github.com/orgs/hello-coins`){筑波大学情報学群情報科学類 新入生歓迎委員会(lang: ja)}
+          *** Journal at university: \href(`https://www.word-ac.net/`){WORD Press(lang:ja)}
+      * Computer
+        ** Parsing, converter and formatter
+          *** LL(1) token parser generator: \href(`https://github.com/puripuri2100/llmaker`){[GitHub Repository]}
+          *** XML parser with SATySFi: \href(`https://github.com/puripuri2100/satysfi-xml`){[GitHub Repository]}
+          *** Bib format parser and converter: \href(`https://github.com/puripuri2100/BibSATySFi`){[GitHub Repository]}
+          *** Formatting library: \href(`https://github.com/puripuri2100/coins_special_seminar_code_format_ml`){[GitHub Repository]}
+          *** OPAM file parser with Rust: \href(`https://github.com/puripuri2100/opam-file-rs`){[GitHub Repository]}
+          *** Parsing for combined emoji: \href(`https://github.com/puripuri2100/emoji-joiner-rs`){[GitHub Repository]}
+        ** Analysis of Japanese laws : \href(`https://github.com/japanese-law-analysis`){[Project Link]}
+      * Photograph
+        ** \url(`https://photo.puripuri2100.site/`);
+        ** Cameras
+          *** Nikon Z6
+          *** Nikon D7500
+          *** Nikon F3
+        ** Lenses
+          *** NIKKOR Z 24-70mm f/4 S
+          *** NIKKOR Z 70-180mm f/2.8
+          *** AF-S DX NIKKOR 18-140mm f/3.5-5.6G ED VR
+          *** Sigma 100-400mm F5-6.3 DG OS HSM
+          *** Sigma 35mm F1.4 DG HSM
+          *** Sigma 18-250mm 3.5-6.3 MACRO HSM
+    }
+  >
+  +section ?:(`affiliation`) {Affiliation} <
+    +listing {
+      * University of Tsukuba
+        ** College of Information Science (2022/04 - now) : \href(`https://www.coins.tsukuba.ac.jp/`){[WEB Page]}
+          *** Studing Computer Science
+          *** 2nd year of Bachelor's course
+        ** Academic Collaboration Promotional Laboratory(2022/05 - now) : \href(`http://www.ac-room.org/`){[WEB Page]}
+          *** 筑波大学 情報学群 情報科学類 産学間連携推進室
+          *** Student leader (2023/03 - now)
+        ** School Festival Executive Committee of University of Tsukuba (2023/04 - now) : \href(`https://sohosai.com/`){[WEB Page]}
+          *** 情報メディアシステム局 2023
+      * Kaisei Senior High School (2019/04 - 2022/03): \href(`https://kaiseigakuen.jp/`){[WEB Page]}
+      * Kaisei Junior High School (2016/04 - 2019/03): \href(`https://kaiseigakuen.jp/`){[WEB Page]}
+    }
+  >
+  %+section ?:(`oss`) {Open-Source Softwares} <>
+  +section ?:(`papers_articles`) {Papers & Articles} <
+    +listing {
+      * Naoki Kaneko. Analysis Method for Sentences of Replacement in Legal Documents by Occurrences Rules for Words. IPSJ 85th National Convention Proceedings  pp.729-730, 2023.
+    }
+  >
+  +section ?:(`awords`) {Awords} <
+    +listing {
+      * 2023/06 Best Paper Award for Young Researcher of IPSJ National Convention
+      * 2023/03 Student Encouragement Award of IPSJ National Convention
+    }
+  >
+  %+section ?:(`talks`) {Talks} <>
 >

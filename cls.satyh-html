@@ -127,7 +127,7 @@ let section-scheme tinfo label title inner =
   let s-num = arabic (!num-section) in
   let () = register-cross-reference (label ^ `:num`) s-num in
   let s-title tinfo =
-    HTMLBase.tag ?* ?:false tinfo `h1` (fun tinfo -> stringify-inline tinfo title)
+    HTMLBase.tag ?:([(`id`, label)]) ?:false tinfo `h1` (fun tinfo -> stringify-inline tinfo title)
   in
   let s-inner tinfo = stringify-block tinfo inner in
   let main tinfo = s-title tinfo ^ (break tinfo) ^ s-inner tinfo in
@@ -139,7 +139,7 @@ let subsection-scheme tinfo label title inner =
   let s-num = arabic (!num-section) ^ `.` ^ arabic (!num-subsection) in
   let () = register-cross-reference (label ^ `:num`) s-num in
   let s-title tinfo =
-    HTMLBase.tag ?* ?:false tinfo `h2` (fun tinfo -> stringify-inline tinfo title)
+    HTMLBase.tag ?:([(`id`, label)]) ?:false tinfo `h2` (fun tinfo -> stringify-inline tinfo title)
   in
   let s-inner tinfo = stringify-block tinfo inner in
   let main tinfo = s-title tinfo ^ (break tinfo) ^ s-inner tinfo in
