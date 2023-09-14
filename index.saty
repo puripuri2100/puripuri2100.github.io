@@ -99,5 +99,30 @@ document (|
       * 2023/03 Student Encouragement Award of IPSJ National Convention
     }
   >
-  %+section ?:(`talks`) {Talks} <>
+  +section ?:(`talks`) {Talks} <
+    +listing {
+      * カスタマイズ可能なクラスファイルについて
+        ** \href(`https://connpass.com/event/174844/`){SATySFi Conf 2020}
+        ** \href(`https://speakerdeck.com/puripuri2100/kasutamaizuke-neng-nakurasuhuairunituite`){Slide (lang: ja)}
+        ** \href(`https://youtu.be/g39yZuvVu8w`){Video}
+      * SATySFiを使用したMarkdownからLaTeXへのファイル変換について
+        ** \href(`https://connpass.com/event/188075/`){Online.tex 2020}
+        ** \href(`https://speakerdeck.com/puripuri2100/satysfiwoshi-yong-sitamarkdownkaralatexhefalsehuairubian-huan-nituite`){Slide (lang: ja)}
+      * mdbookのプラグインを作る話
+        ** \href(`https://uniquevision.connpass.com/event/202944/`){【初心者歓迎】Rust LT会\@オンライン}
+        ** \href(`https://speakerdeck.com/puripuri2100/mdbookfalsepuraguinwozuo-ruhua`){Slide (lang: ja)}
+      * mdbook-satysfiを作成しました
+        ** \href(`https://connpass.com/event/206277/`){SATySFi Conf 2021}
+        ** \href(`https://speakerdeck.com/puripuri2100/mdbook-satysfiwozuo-cheng-simasita`){Slide (lang: ja)}
+      * ユーザーがカスタマイズできるクラスファイル ―v0.0.x と v0.1.x それぞれでの実装―
+        ** \href(`https://connpass.com/event/247712/`){SATySFi Conf 2022}
+        ** \href(`https://speakerdeck.com/puripuri2100/yuzagakasutamaizudekirukurasuhuairu-v0-dot-0-x-to-v0-dot-1-x-sorezoredenoshi-zhuang`){Slide (lang: ja)}
+      * 研究の場においてのRust 製ソフトウェアのバージョン管理について
+        ** \href(`https://connpass.com/event/282286/`){人工衛星の開発現場でLT大会 〜地上と宇宙で活躍するRust〜}
+        ** \href(`https://speakerdeck.com/puripuri2100/yan-jiu-nochang-nioitenorust-zhi-sohutoueanobaziyonguan-li-nituite`){SLide (lang: ja)}
+      * 法律文書の自動解析
+        ** 筑波大学 情報学群 情報科学類 産学間連携推進室 成果報告会
+        ** \href(`https://speakerdeck.com/puripuri2100/fa-lu-wen-shu-nozi-dong-jie-xi`){SLide (lang: ja)}
+    }
+  >
 >
