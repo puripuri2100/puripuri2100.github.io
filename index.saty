@@ -128,7 +128,11 @@ document (|
           ** Rust文書の和訳レポジトリ
       }
     >
-    %+subsection ?:(`oss-community-activities`) {Community Activities} <>
+   %+subsection ?:(`oss-community-activities`) {Community Activities} <
+   %  +listing {
+   %    * 
+   %  }
+   %>
   >
   +section ?:(`papers_articles`) {Papers & Articles} <
     +listing {
