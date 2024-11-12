@@ -14,7 +14,7 @@ document (|
 |) '<
   +section ?:(`profile`) {Profile} <
     +listing {
-      * Name : Naoki Kaneko
+      * Name : Naoki Kitano
       * Live in : Ibaraki, Japan
     }
   >
