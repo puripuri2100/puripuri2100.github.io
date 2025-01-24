@@ -4,3 +4,7 @@ let-inline tinfo \strong it =
   HTMLBase.tag tinfo `strong` (fun tinfo -> stringify-inline tinfo it)
 
 let-inline tinfo \line-break = `<br>`
+
+let-inline tinfo \img size url =
+  HTMLBase.tag ?:([(`src`, url); (`width`, size)]) tinfo `img` (fun tinfo -> ` `)
+

@@ -16,6 +16,7 @@ document (|
     +listing {
       * Name : Naoki Kitano
       * Live in : Ibaraki, Japan
+      * Icon : \img (`100em`) (`icon.jpg`);
     }
   >
   +section ?:(`contact`) {Contact} <
