@@ -14,7 +14,7 @@ document (|
 |) '<
   +section ?:(`profile`) {Profile} <
     +listing {
-      * Name : Naoki Kitano
+      * Name : Naoki Kitano (Former name: Naoki Kaneko)
       * Live in : Ibaraki, Japan
       * Icon : \img (`100em`) (`icon.jpg`);
     }
@@ -23,7 +23,7 @@ document (|
     +listing {
       * E-mail: \href(`mailto:puripuri2100@gmail.com`){puripuri2100\@gmail.com}
       * GitHub: \href(`https://github.com/puripuri2100`){\@puripuri2100}
-      * X(twitter) : \href(`https://twitter.com/puripuri2100`){\@puripuri2100}
+      * X(twitter) : \href(`https://x.com/puripuri2100`){\@puripuri2100}
       * GitLab: \href(`https://gitlab.com/puripuri2100`){\@puripuri2100}
       * Mastodon: \href(`https://mstdn.jp/@puripuri2100`){\@puripuri2100\@mstdn.jp}
     }
@@ -71,6 +71,8 @@ document (|
         ** Lenses
           *** NIKKOR Z 24-70mm f/4 S
           *** NIKKOR Z 70-180mm f/2.8
+          *** NIKKOR Z 24-120mm f/4 S
+          *** NIKKOR Z 180-600mm f/5.6-6.3 VR
           *** AF-S DX NIKKOR 18-140mm f/3.5-5.6G ED VR
           *** Sigma 100-400mm F5-6.3 DG OS HSM
           *** Sigma 35mm F1.4 DG HSM
@@ -83,13 +85,29 @@ document (|
         ** College of Information Science (2022/04 - now) : \href(`https://www.coins.tsukuba.ac.jp/`){[WEB Page]}
           *** Studing Computer Science
           *** 2nd year of Bachelor's course
+        ** Knowledge & Data Engineering Laboratory(2025/04 - now) : \href(`https://www.kde.cs.tsukuba.ac.jp/en/index.php`){[WEB Page]}
+          *** 知識・データ工学研究室
         ** Academic Collaboration Promotional Laboratory(2022/05 - now) : \href(`http://www.ac-room.org/`){[WEB Page]}
           *** 筑波大学 情報学群 情報科学類 産学間連携推進室
-          *** Student leader (2023/03 - now)
-        ** School Festival Executive Committee of University of Tsukuba (2023/04 - now) : \href(`https://sohosai.com/`){[WEB Page]}
+          *** Student leader (2023/03 - 2024/12)
+          *** 成果報告： \url(`https://www.ac-room.org/publication.html`);
+        ** University of Tsukuba Information Science Journal "WORD"(2022/04 - now) : \href(`https://www.word-ac.net/`){[WEB Page]}
+          *** 筑波大学情報科学類誌WORD
+          *** Student leader (2024/01 - 2024/12)
+        ** School Festival Executive Committee of University of Tsukuba (2023/04 - 2024/03) : \href(`https://sohosai.com/`){[WEB Page]}
           *** 情報メディアシステム局 2023
+          *** Developed materials management software: \url(`https://qr.sohosai.com/`);
+            *** Frontend (React + storybook): \href(`https://github.com/sohosai/qr-frontend`){[Repository]}
+            *** Backend (axum(Rust) + postgesql + meilisearch + Docker): \href(`https://github.com/sohosai/qr-backend`){[Repository]}
       * Kaisei Senior High School (2019/04 - 2022/03): \href(`https://kaiseigakuen.jp/`){[WEB Page]}
       * Kaisei Junior High School (2016/04 - 2019/03): \href(`https://kaiseigakuen.jp/`){[WEB Page]}
+    }
+  >
+  +section ?:(`certification`) {Certification} <
+    +listing {
+      * 普通自動車免許第一種
+      * 危険物取扱者乙種第4類
+      * 第二種電気工事士
     }
   >
   +section ?:(`oss`) {Open-Source Softwares} <
@@ -138,12 +156,49 @@ document (|
   +section ?:(`papers_articles`) {Papers & Articles} <
     +listing {
       * Naoki Kaneko. Analysis Method for Sentences of Replacement in Legal Documents by Occurrences Rules for Words. IPSJ 85th National Convention Proceedings  pp.729-730, 2023.
+        ** 単語の出現規則に着目した法令中の読み変え規定文の解析手法の提案
+      * 北野尚樹， 西山大輝. 法令文の可読性向上のための定義規定・略称規定における文型定義及びパターンベースの正式名称・略称抽出手法. 言語処理学会 第31回年次大会 発表論文集  pp.2243-2248, 2025.
     }
   >
   +section ?:(`awords`) {Awords} <
     +listing {
+      * 2025/04 筑波大学情報科学類学類長特別賞
       * 2023/06 Best Paper Award for Young Researcher of IPSJ National Convention
+        ** 情報処理学会全国大会大会奨励賞
       * 2023/03 Student Encouragement Award of IPSJ National Convention
+        ** 情報処理学会全国大会学生奨励賞
+    }
+  >
+  +section ?:(`awords`) {Publications} <
+    +listing {
+      * OtakuAssembly: \href(`https://otakuassembly.github.io/`){[Web Page]}
+        ** 後方互換性検証(Vol. 3)
+      * WORD
+        ** \href(`https://www.word-ac.net/post/2025/0709-word57/`){WORD編集部も警備員とゲートを導入します号}
+          *** Tauri で移動記録アプリを作ってみた
+          *** 結婚生活 1 年目振り返り
+        ** \href(`https://www.word-ac.net/post/2025/0401-iwai2025/`){入学祝い号2025}
+          *** 電工二種を取る
+        ** \href(`https://www.word-ac.net/post/2024/1123-word56/`){プロポーズされたらWORD号}
+          *** 結婚
+        ** \href(`https://www.word-ac.net/post/2024/0801-word55/`){WORD編集長も大統領選挙から撤退します号}
+          *** Tauri + React で Markdown を描画する
+        ** \href(`https://www.word-ac.net/post/2024/0409-iwai2024/`){入学祝い号2024}
+          *** 「車で日本全国ドライブ」の真実
+        ** \href(`https://www.word-ac.net/post/2023/1225-word54/`){WORD編集部は除草剤を撒いていません号}
+          *** SATySFiでBibTeXのparserを書く
+        ** \href(`https://www.word-ac.net/post/2023/0707-word53/`){WORD編集部は44年目も営業しています号}
+          *** BibTeX フォーマットをパースしたい
+        ** \href(`https://www.word-ac.net/post/2022/0605-word51/`){WORD は大学新聞の学内誌特集からハブられました号}
+          *** オンラインでソフトウェアイベントを開くときのテクニック集
+      * 高度プログラミング教育研究会
+        ** プログラミング教育講座の舞台裏 Vol.05 \href(`https://nextpred.booth.pm/items/4434270`){電子版 (BOOTH)}
+          *** オンラインソフトウェアカンファレンスの主催におけるくふうについて　－空間・時間・デバイスの制約を乗り越えるために－
+        ** プログラミング教育講座の舞台裏 Vol.06 \href(`https://nextpred.booth.pm/items/4995781`){電子版 (BOOTH)}
+          *** パソコンの解体イベントを通じた情報技術への興味の励起
+          *** 大学における体験型のネットワーク構築講座の実施についての報告
+        ** 教育者のための情報技術 第２集6 \href(`https://nextpred.booth.pm/items/6441350`){電子版 (BOOTH)}
+          *** 物理的なプログラミングをする
     }
   >
   +section ?:(`talks`) {Talks} <
@@ -166,10 +221,10 @@ document (|
         ** \href(`https://speakerdeck.com/puripuri2100/yuzagakasutamaizudekirukurasuhuairu-v0-dot-0-x-to-v0-dot-1-x-sorezoredenoshi-zhuang`){Slide (lang: ja)}
       * 研究の場においてのRust 製ソフトウェアのバージョン管理について
         ** \href(`https://connpass.com/event/282286/`){人工衛星の開発現場でLT大会 〜地上と宇宙で活躍するRust〜}
-        ** \href(`https://speakerdeck.com/puripuri2100/yan-jiu-nochang-nioitenorust-zhi-sohutoueanobaziyonguan-li-nituite`){SLide (lang: ja)}
+        ** \href(`https://speakerdeck.com/puripuri2100/yan-jiu-nochang-nioitenorust-zhi-sohutoueanobaziyonguan-li-nituite`){Slide (lang: ja)}
       * 法律文書の自動解析
         ** 筑波大学 情報学群 情報科学類 産学間連携推進室 成果報告会
-        ** \href(`https://speakerdeck.com/puripuri2100/fa-lu-wen-shu-nozi-dong-jie-xi`){SLide (lang: ja)}
+        ** \href(`https://speakerdeck.com/puripuri2100/fa-lu-wen-shu-nozi-dong-jie-xi`){Slide (lang: ja)}
     }
   >
 >
